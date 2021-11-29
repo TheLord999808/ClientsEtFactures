@@ -1,5 +1,6 @@
 package metier;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +10,9 @@ public class Client
 	 * Crée un client.
 	 * @param nom le nom du client. 
 	 */
+
+	private String nom;
+	private boolean reglementfacture;
 	
 	public Client(String nom)
 	{
@@ -21,7 +25,7 @@ public class Client
 	
 	public String getNom()
 	{
-		return null;
+		return this.nom = nom;
 	}
 	
 	/**
@@ -31,6 +35,7 @@ public class Client
 	
 	public void setNom(String nom)
 	{
+		
 	}
 	
 	/**
