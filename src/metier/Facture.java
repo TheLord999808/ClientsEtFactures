@@ -15,7 +15,8 @@ public class Facture
 	{
 		this.client = client;
 		this.date = date;
-		this.montant = montant; 
+		this.montant = montant;
+		this.reglementfacture = reglementfacture;
 	}
 	
 	
