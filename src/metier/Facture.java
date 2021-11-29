@@ -33,7 +33,7 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return this.client;
+		return client;
 	}
 
 	/**
@@ -43,7 +43,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return this.montant;
+		return montant;
 	}
 
 	/**
@@ -63,7 +63,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return this.date;
+		return date;
 	}
 
 	/**

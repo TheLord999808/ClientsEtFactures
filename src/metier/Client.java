@@ -12,7 +12,8 @@ public class Client
 	 */
 
 	private String nom;
-
+	private static List<Client> clients = new ArrayList<>();
+	private List<Facture> factures = new ArrayList<>();
 	
 	public Client(String nom)
 	{
@@ -57,7 +58,7 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return null;
+		return factures;
 	}
 	
 	/**
@@ -108,5 +109,4 @@ public class Client
 	
 	public void delete()
 	{
-	}
 }
