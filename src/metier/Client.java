@@ -12,10 +12,11 @@ public class Client
 	 */
 
 	private String nom;
-	private boolean reglementfacture;
+
 	
 	public Client(String nom)
 	{
+		this.nom = nom;
 	}
 
 	/**
@@ -25,7 +26,7 @@ public class Client
 	
 	public String getNom()
 	{
-		return this.nom = nom;
+		return nom;
 	}
 	
 	/**
@@ -35,7 +36,7 @@ public class Client
 	
 	public void setNom(String nom)
 	{
-		
+		this.nom = nom;
 	}
 	
 	/**
