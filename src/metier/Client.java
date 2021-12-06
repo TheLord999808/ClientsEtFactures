@@ -3,6 +3,7 @@ package metier;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Client
 {
@@ -14,6 +15,8 @@ public class Client
 	private String nom;
 	private static List<Client> clients = new ArrayList<>();
 	private List<Facture> factures = new ArrayList<>();
+	
+	
 	
 	public Client(String nom)
 	{
@@ -48,7 +51,8 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		Facture;
+		Facture f = new Facture(montant, this) ;
+		montant = i.nextInt();
 	}
 	
 	/**
@@ -85,12 +89,16 @@ public class Client
 	
 	/**
 	 * Retourne la liste des factures reglées. 
+	 * @param reglee 
 	 * @return la liste des factures reglées.
 	 */
 
 	public List<Facture> facturesReglees()
 	{
-		return null;
+		if (reglee = true)
+			{
+				return factures;
+			};
 	}
 	
 
@@ -100,7 +108,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return null;
+		return clients;
 	}
 	
 	/**

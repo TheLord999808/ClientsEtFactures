@@ -6,7 +6,7 @@ public class Facture
 {
 	private LocalDate date;
 	private int montant;
-	private boolean reglementfacture;
+	private boolean reglee;
 	private Client client;
 	
 	public Facture() {}
@@ -16,7 +16,7 @@ public class Facture
 		this.client = client;
 		this.date = date;
 		this.montant = montant;
-		this.reglementfacture = reglementfacture;
+		this.reglee = reglee;
 	}
 	
 	
@@ -53,7 +53,7 @@ public class Facture
 	
 	public boolean estReglee()
 	{
-		return this.reglementfacture = true;
+		return this.reglee = true;
 	}
 
 	/**
